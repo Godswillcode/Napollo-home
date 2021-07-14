@@ -3,7 +3,7 @@ import logo from "../Images/logo.png";
 
 const Navbar = () => {
   return (
-    <div className="shadow head">
+    <div className="shadow-xl head py-1">
       <div className="myContainer ">
         <div className="flex items-center">
           <div className="flex items-center">
@@ -24,14 +24,14 @@ const Navbar = () => {
 
             <img src={logo} alt="logo" className="w-16" />
           </div>
-          <div className="child2">
+          <div className="">
             <div class="col-rt-3 equal-height">
               <div class="sb-example-3">
                 <div class="search__container">
                   <input
                     class="search__input"
                     type="text"
-                    placeholder="Search"
+                    placeholder="Search for artistes, songs, albums"
                   />
                 </div>
               </div>
