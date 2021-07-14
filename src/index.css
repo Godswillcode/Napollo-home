@@ -25,8 +25,8 @@ body {
 }
 
 /*=== Navbar  =====*/
-.head {
-  background: rgb(36, 35, 35);
+.nav {
+  background: rgb(15, 15, 15);
 }
 
 .sb-example-3 .search__input {
@@ -52,7 +52,7 @@ body {
 .sb-example-3 .search__input::placeholder {
   color: rgba(87, 87, 86, 0.8);
   letter-spacing: 1.5px;
-  margin: 0 10px;
+  margin: 0 20px;
 }
 
 .sb-example-3 .search__input:hover,
