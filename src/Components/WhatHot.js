@@ -150,8 +150,8 @@ const WhatHot = () => {
               <img src={ep1} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
-                  <span className="block text-neutral">Death Bed</span>
-                  <span className="text-primary">Powerful </span>
+                  <span className="block text-neutral">Let's Dance</span>
+                  <span className="text-primary">Bowie </span>
                 </div>
                 <div>
                   <span>
@@ -179,8 +179,8 @@ const WhatHot = () => {
               <img src={ep2} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
-                  <span className="block text-neutral">Faded</span>
-                  <span className="text-primary">Alan Walker </span>
+                  <span className="block text-neutral">Bad Romance</span>
+                  <span className="text-primary">Rihanna </span>
                 </div>
                 <div>
                   <span>
@@ -208,8 +208,8 @@ const WhatHot = () => {
               <img src={ep3} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
-                  <span className="block text-neutral">Hate Me</span>
-                  <span className="text-primary">Ellie Goulding</span>
+                  <span className="block text-neutral">Fly</span>
+                  <span className="text-primary">Coldplay</span>
                 </div>
                 <div>
                   <span>
