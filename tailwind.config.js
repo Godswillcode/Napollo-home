@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        neutral: "var(--neutral)"
       },
     },
   },

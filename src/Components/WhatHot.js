@@ -8,7 +8,7 @@ const WhatHot = () => {
                     <h2 className="title">What's Hot!</h2>
                      <div>
                          <h4>Albums</h4>
-                         <h6><span>View All</span><svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeWinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg></h6>
+                         <h6><span>View All</span><svg className="w-9 h-9 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeWinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg></h6>
                      </div>
                 </div>
 

@@ -13,6 +13,7 @@
 :root {
   --primary: #f78127;
   --secondary: #1a1a1a;
+  --neutral: #bababa; 
   --bodyColor: #000000;
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 p {
-  color: #bababa;
+  color: var(--neutral);
 }
 
 .myContainer {
