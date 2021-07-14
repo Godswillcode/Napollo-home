@@ -28,7 +28,7 @@ const Navbar = () => {
           </div>
           <div className="ml-8">
             <div className="col-rt-3 equal-height">
-              <div className="sb-example-3">
+              <div className="search__wrap">
                 <div className="search__container">
                   <input
                     className="search__input"
