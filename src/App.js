@@ -10,6 +10,7 @@ function App() {
      <Hero/>
      <About/>
      <WhatHot/>
+     <div className="mb-32"></div>
     </>
   );
 }

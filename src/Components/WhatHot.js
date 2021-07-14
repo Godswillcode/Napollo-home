@@ -2,7 +2,10 @@ import hotImage from "../Images/hot.jpg";
 import album1 from "../Images/item1.png";
 import album2 from "../Images/item2.png";
 import album3 from "../Images/item3.png";
-import logo2 from "../Images/logo2.png";
+import ep1 from "../Images/single1.png";
+import ep2 from "../Images/single2.png";
+import ep3 from "../Images/single3.png";
+
 
 const WhatHot = () => {
   return (
@@ -121,7 +124,7 @@ const WhatHot = () => {
           </div>
 
           {/* Single and EPS */}
-          <div className="flex justify-between mb-2 mt-6">
+          <div className="flex justify-between mb-2 mt-10">
             <h4 className="text-white font-medium">Singles & EPs</h4>
             <h6 className="flex items-center cursor-pointer">
               <span className="text-neutral text-sm pr-2">View All</span>
@@ -144,7 +147,7 @@ const WhatHot = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <img src={album1} alt="album" className="rounded-md" />
+              <img src={ep1} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Death Bed</span>
@@ -173,7 +176,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={album2} alt="album" className="rounded-md" />
+              <img src={ep2} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Faded</span>
@@ -202,7 +205,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={album1} alt="album" className="rounded-md" />
+              <img src={ep3} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Hate Me</span>
