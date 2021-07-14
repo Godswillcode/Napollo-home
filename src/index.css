@@ -12,7 +12,7 @@
 
 :root {
   --primary: #F78127;
-  --secondary: #1a1a1ab4;
+  --secondary: #1A1A1A;
   --bodyColor: #000000;
  
 }
@@ -25,3 +25,6 @@ body {
   @apply container w-full mx-auto lg:px-8 md:px-6 px-5;
 }
 
+.head {
+    background: rgba(100, 100, 100, );
+}

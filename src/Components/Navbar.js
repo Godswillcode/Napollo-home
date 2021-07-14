@@ -3,8 +3,8 @@ import logo from "../Images/logo.png"
 
 const Navbar = () => {
     return (
-         <div>
-             <div className="myContainer shadow border-b border-gray-300" style={{background: "rgba()"}}>
+         <div className="shadow head">
+             <div className="myContainer ">
             <div className="flex items-center">
                 <div className="flex items-center">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
