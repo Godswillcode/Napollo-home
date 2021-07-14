@@ -25,7 +25,7 @@ const WhatHot = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  strokeWinecap="round"
+                  strokewinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M9 5l7 7-7 7"
@@ -136,7 +136,7 @@ const WhatHot = () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  strokeWinecap="round"
+                  strokewinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
                   d="M9 5l7 7-7 7"
@@ -236,8 +236,10 @@ const WhatHot = () => {
         </div>
 
       <div className="flex items-center">
-      <svg className="w-10 h-10 text-white bg-primary p-8 rounded-full flex justify-center" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
-      <img src={hotImage} alt="whats hot" className="max-h-96 ml-10"/>
+       <div className="bg-primary p-2 rounded-full hidden md:flex justify-center md:ml-3">
+       <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+       </div>
+      <img src={hotImage} alt="whats hot" className="max-h-96 md:ml-10"/>
       </div>
       </div>
     </div>
