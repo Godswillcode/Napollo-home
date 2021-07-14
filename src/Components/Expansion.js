@@ -9,7 +9,7 @@ const Expansion = () => {
         {/* detail */}
         <div>
           <h2 className="title">Expansion Page</h2>
-          <p className="text-lg font-medium md:pr-44">
+          <p className="text-lg font-medium md:pr-48">
             Discover artistes all around the world by their location via the
             expansion page. Also, get to know the top artistes in any location
             on the globe.

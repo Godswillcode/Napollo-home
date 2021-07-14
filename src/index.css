@@ -31,7 +31,7 @@ p {
 
 /* general title */
 .title {
-@apply text-primary text-2xl md:text-5xl font-extrabold pb-5;
+@apply text-primary text-2xl md:text-6xl font-extrabold pb-5;
 }
 
 /*=== Navbar  =====*/
