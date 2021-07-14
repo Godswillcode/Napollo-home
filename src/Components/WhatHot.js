@@ -10,7 +10,7 @@ import ep3 from "../Images/single3.png";
 const WhatHot = () => {
   return (
     <div className="myContainer">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
         <div>
           <h2 className="title">What's Hot!</h2>
           <div className="flex justify-between mb-2">
@@ -214,8 +214,8 @@ const WhatHot = () => {
                 <div>
                   <span>
                     <svg
-                      className="w-6 h-6 text-primary"
-                      fill="#f78127"
+                      className="w-6 h-6 text-neutral"
+                      fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
@@ -235,7 +235,10 @@ const WhatHot = () => {
           </div>
         </div>
 
-        <img src={hotImage} alt="whats hot" />
+      <div className="flex items-center">
+      <svg className="w-10 h-10 text-white bg-primary p-8 rounded-full flex justify-center" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
+      <img src={hotImage} alt="whats hot" className="max-h-96 ml-10"/>
+      </div>
       </div>
     </div>
   );
