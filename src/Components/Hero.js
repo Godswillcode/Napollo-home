@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="myContainer">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
         <div className="pt-20">
-          <h3 className="text-white text-2xl font-bold">
+          <h3 className="text-white text-4xl font-bold">
             More fans, More Gigs, Less Eort Get better feedback, wider exposure
             and deeper industry access without ever switching tabs.
           </h3>
