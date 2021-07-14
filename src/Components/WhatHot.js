@@ -6,7 +6,6 @@ import ep1 from "../Images/single1.png";
 import ep2 from "../Images/single2.png";
 import ep3 from "../Images/single3.png";
 
-
 const WhatHot = () => {
   return (
     <div className="myContainer">
@@ -235,12 +234,25 @@ const WhatHot = () => {
           </div>
         </div>
 
-      <div className="flex items-center">
-       <div className="bg-primary p-2 rounded-full hidden md:flex justify-center md:ml-3">
-       <svg className="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path></svg>
-       </div>
-      <img src={hotImage} alt="whats hot" className="max-h-96 md:ml-10"/>
-      </div>
+        <div className="flex items-center">
+          <div className="bg-primary p-2 rounded-full hidden md:flex justify-center md:ml-3">
+            <svg
+              className="w-10 h-10 text-white"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M9 5l7 7-7 7"
+              ></path>
+            </svg>
+          </div>
+          <img src={hotImage} alt="whats hot" className="max-h-96 md:ml-10" />
+        </div>
       </div>
     </div>
   );
