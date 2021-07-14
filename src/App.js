@@ -1,14 +1,16 @@
 import About from "./Components/About";
 import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
+import WhatHot from "./Components/WhatHot";
 
 function App() {
   return (
-    <div className="App">
+    <>
      <Navbar/>
      <Hero/>
      <About/>
-    </div>
+     <WhatHot/>
+    </>
   );
 }
 
