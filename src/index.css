@@ -11,9 +11,10 @@
 }
 
 :root {
-  --primary: #2596be;
-  --secondary: #eaa249;
-  --bodyColor: #f8f9fa
+  --primary: #F78127;
+  --secondary: #1A1A1A;
+  --bodyColor: #000000;
+ 
 }
 
 body {
