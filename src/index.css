@@ -28,6 +28,11 @@ p {
   @apply container w-full mx-auto lg:px-8 md:px-6 px-5;
 }
 
+/* general title */
+.title {
+@apply text-primary text-2xl md:text-5xl font-extrabold pb-5;
+}
+
 /*=== Navbar  =====*/
 .nav {
   background: rgb(15, 15, 15);
