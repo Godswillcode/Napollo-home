@@ -19,8 +19,16 @@ const Download = () => {
         </p>
 
         <div className="flex items-center mt-4 -ml-5">
-          <img src={apple} alt="apple" className="md:w-48 w-28" />
-          <img src={google} alt="google playstore" className="md:w-48 w-28" />
+          <img
+            src={apple}
+            alt="apple"
+            className="md:w-48 w-28 cursor-pointer"
+          />
+          <img
+            src={google}
+            alt="google playstore"
+            className="md:w-48 w-28 cursor-pointer"
+          />
         </div>
       </div>
     </div>
