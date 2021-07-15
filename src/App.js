@@ -1,6 +1,7 @@
 import About from "./Components/About";
 import Download from "./Components/Download";
 import Expansion from "./Components/Expansion";
+import Footer from "./Components/Footer";
 import Hero from "./Components/Hero";
 import Listen from "./Components/Listen";
 import Navbar from "./Components/Navbar";
@@ -20,7 +21,8 @@ function App() {
      <Plan/>
      <Testimonial/>
      <Download/>
-     <div className="mb-32"></div>
+     <Footer/>
+     {/* <div className="mb-32"></div> */}
     </>
   );
 }
