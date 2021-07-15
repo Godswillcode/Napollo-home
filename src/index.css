@@ -95,3 +95,11 @@ p {
 .f_iconBg {
   background: rgb(100, 100, 100);
 }
+
+.f_title {
+  @apply mb-5 text-neutral font-semibold tracking-wide text-base;
+}
+
+footer ul li {
+  margin: 5px 0;
+}
