@@ -18,7 +18,7 @@ function App() {
       <WhatHot />
       <Expansion />
       <Listen />
-      {/* <Plan /> */}
+      <Plan />
       {/* <Testimonial /> */}
       {/* <Download /> */}
       {/* <Footer /> */}

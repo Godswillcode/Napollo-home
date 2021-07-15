@@ -75,11 +75,11 @@ const Plan = () => {
           </button>
         </div>
 
-        <div className="mx-5"></div>
+        <div className="mx-8 hidden sm:flex md:flex lg:flex"></div>
         {/* premium plan */}
 
         <div
-          className="py-5 px-10 shadow"
+          className="py-5 px-10 shadow mt-10 sm:mt-0"
           style={{ background: "rgba(0,0,0,255)", color: "#5b3a25" }}
         >
           <div className="flex justify-center mb-2">
