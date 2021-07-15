@@ -7,7 +7,7 @@ import ex4 from "../Images/ex4.png";
 const Expansion = () => {
   return (
     <div className="myContainer mt-44">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
         <img src={expan} alt="Expansion" className="h-2/3" />
 
         {/* detail */}
@@ -59,7 +59,7 @@ const Expansion = () => {
 
 const ChildComp = ({ number, image, title1, title2, icon, hiddenT }) => {
   return (
-    <div className="flex items-center justify-around mt-5 md:mr-80">
+    <div className="flex items-center justify-around mt-5 lg:mr-80">
       <div className="flex items-center">
         <h4 className="text-white pr-3 font-bold">{number}</h4>
         <img src={image} alt="expansion" className="rounded-md mr-4" />

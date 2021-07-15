@@ -5,7 +5,7 @@ import google from "../Images/googlePlay.png";
 
 const Navbar = () => {
   return (
-    <nav className="shadow-xl nav py-1 hidden md:flex w-full sticky top-0">
+    <nav className="shadow-xl nav py-1 hidden xl:flex w-full sticky top-0">
       <div className="myContainer ">
         <div className="flex items-center justify-between">
           <div className="flex items-center">

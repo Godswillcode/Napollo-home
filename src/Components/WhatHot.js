@@ -9,7 +9,7 @@ import ep3 from "../Images/single3.png";
 const WhatHot = () => {
   return (
     <div className="myContainer">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
         <div>
           <h2 className="title">What's Hot!</h2>
           <div className="flex justify-between mb-2">
@@ -33,7 +33,7 @@ const WhatHot = () => {
             </h6>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
             <div>
               <img src={album2} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">

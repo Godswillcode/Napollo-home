@@ -4,9 +4,9 @@ import google from "../Images/googlePlay.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary py-12 mt-20 md:mt-64">
+    <footer className="bg-secondary py-12 mt-20 lg:mt-64">
       <div className="myContainer">
-        <div className="grid grid-cols-1 md:grid-cols-9 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-9 gap-5">
           {/* first */}
           <div className="text-neutral text-sm">
             <img src={logo} alt="logo" className="16" />
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           {/* second role */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 col-span-6 mt-5 md:ml-16 text-white text-sm">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-3 col-span-6 mt-5 lg:ml-16 text-white text-sm">
             <ul>
               <li className="f_title">Napollo</li>
               <li>About</li>
