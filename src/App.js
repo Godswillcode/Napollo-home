@@ -12,17 +12,16 @@ import WhatHot from "./Components/WhatHot";
 function App() {
   return (
     <>
-     <Navbar/>
-     <Hero/>
-     <About/>
-     <WhatHot/>
-     <Expansion/>
-     <Listen/>
-     <Plan/>
-     <Testimonial/>
-     <Download/>
-     <Footer/>
-     {/* <div className="mb-32"></div> */}
+      <Navbar />
+      <Hero />
+      <About />
+      <WhatHot />
+      <Expansion />
+      <Listen />
+      <Plan />
+      <Testimonial />
+      <Download />
+      <Footer />
     </>
   );
 }
