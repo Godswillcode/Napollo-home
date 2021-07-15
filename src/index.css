@@ -39,15 +39,6 @@ p {
   background: rgb(15, 15, 15);
 }
 
-ul li::before {
-  content: "\2022";
-  color: #feed3e;
-  font-weight: bold;
-  display: inline-block; 
-  width: 3em;
-  margin-right: -2em;
-  font-size: 20px;
-}
 
 .search__wrap .search__input {
   width: 100%;
@@ -77,4 +68,17 @@ ul li::before {
 
 .search__input:focus {
   outline: 0;
+}
+
+
+/*=== Listen and enjoy ====*/
+
+ul li::before {
+  content: "\2022";
+  color: #feed3e;
+  font-weight: bolder;
+  display: inline-block; 
+  width: 3em;
+  margin-right: -2em;
+  font-size: 20px;
 }
