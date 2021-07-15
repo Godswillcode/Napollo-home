@@ -42,7 +42,11 @@ const Navbar = () => {
 
           <div className="flex items-center ml-32 justify-center">
             <img src={apple} alt="apple" className="w-32 cursor-pointer" />
-            <img src={google} alt="google playstore" className="w-32 cursor-pointer" />
+            <img
+              src={google}
+              alt="google playstore"
+              className="w-32 cursor-pointer"
+            />
             <a href="#!" className="text-white mx-3">
               SignUp/Login
             </a>

@@ -13,7 +13,7 @@
 :root {
   --primary: #f78127;
   --secondary: #3a3a3a;
-  --neutral: #bababa; 
+  --neutral: #bababa;
   --bodyColor: #000000;
 }
 
@@ -31,14 +31,13 @@ p {
 
 /* general title */
 .title {
-@apply text-primary text-2xl md:text-6xl font-extrabold pb-5;
+  @apply text-primary text-2xl md:text-6xl font-extrabold pb-5;
 }
 
 /*=== Navbar  =====*/
 .nav {
   background: rgb(15, 15, 15);
 }
-
 
 .search__wrap .search__input {
   width: 100%;
@@ -70,26 +69,22 @@ p {
   outline: 0;
 }
 
-
 /*=== Listen and enjoy ====*/
 
 .musicList li::before {
   content: "\2022";
   color: #feed3e;
   font-weight: bolder;
-  display: inline-block; 
+  display: inline-block;
   width: 3em;
   margin-right: -2em;
   font-size: 20px;
 }
 
-
 /*==== plan section ====*/
-.planList li{
+.planList li {
   margin-top: 12px;
 }
-
-
 
 /*=== Footer css  ===*/
 .f_iconBg {
@@ -97,8 +92,8 @@ p {
 }
 
 .f_iconBg:hover {
-   cursor: pointer;
-   background: var(--primary)
+  cursor: pointer;
+  background: var(--primary);
 }
 
 .f_title {
