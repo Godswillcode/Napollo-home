@@ -1,12 +1,8 @@
 import logo from "../Images/logo.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
+
 
 const About = () => {
-  useEffect(() => {
-    Aos.init({ duration: 900 });
-  }, []);
+
   return (
     <div className="myContainer">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 text-white">
