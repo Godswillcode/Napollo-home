@@ -73,7 +73,7 @@ p {
 
 /*=== Listen and enjoy ====*/
 
-ul li::before {
+.musicList li::before {
   content: "\2022";
   color: #feed3e;
   font-weight: bolder;

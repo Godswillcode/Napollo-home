@@ -10,7 +10,7 @@ const Listen = () => {
             Listen and enjoy all trending music
           </h2>
 
-          <ul>
+          <ul className="musicList">
             <li>What’s hot</li>
             <li>By genre</li>
             <li>By location</li>

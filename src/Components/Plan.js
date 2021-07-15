@@ -1,28 +1,53 @@
-import logoW from "../Images/logo2.png"
-import logo from "../Images/logo.png"
+import logoW from "../Images/logo2.png";
+import logo from "../Images/logo.png";
 
 const Plan = () => {
-    return (
-        <div className="myContainer mt-20">
-             <h2 className="title text-center">Choose Your Plan</h2>
+  return (
+    <div className="myContainer mt-20">
+      <h2 className="title text-center">Choose Your Plan</h2>
 
-             <div className="flex justify-center">
-                 <div className="bg-primary py-5 px-10 border">
-                     <div className="flex justify-center items-center p-2 rounded-full">
-                     <img src={logoW} alt="logo"  className="rounded-full" className="w-28 h-28"/>
-                     </div>
+      <div className="flex justify-center mt-5">
+        <div className="bg-primary py-5 px-10 border text-white">
+          <div className="flex justify-center items-center p-2 rounded-full">
+            <img
+              src={logoW}
+              alt="logo"
+              className="rounded-full"
+              className="w-28 h-28"
+            />
+          </div>
 
-                     <div className="text-center text-white">
-                         <h4 className="font-bold tracking-wider pb-1">Free</h4>
-                         <p className="text-sm text-white">Enjoy unlimited online music</p>
-                          <div className="flex justify-center mt-3">
-                          <div className="bg-white w-12 h-1"></div>
-                          </div>
-                     </div>
-                 </div>
-             </div>
+          <div className="text-center mb-6">
+            <h4 className="font-bold tracking-wider pb-1">Free</h4>
+            <p className="text-sm text-white">Enjoy unlimited online music</p>
+            <div className="flex justify-center mt-3">
+              <div className="bg-white w-12 h-1"></div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="font-extrabold tracking-wider text-lg pb-3">
+              <span className="text-black">$7.99</span> / month
+            </h3>
+            <h6 className="text-sm">Start with one month free trial</h6>
+            <div className="flex justify-center mt-3">
+              <div className="bg-white w-full h-1"></div>
+            </div>
+            <button
+              className="px-7 rounded-3xl mt-3 py-1"
+              style={{ background: "var(--neutral)" }}
+            >
+              Features
+            </button>
+          </div>
+
+          <div>
+              
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+  );
+};
 
-export default Plan
+export default Plan;
