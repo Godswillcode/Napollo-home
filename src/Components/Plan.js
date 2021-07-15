@@ -44,8 +44,16 @@ const Plan = () => {
 
             <ul className="mt-10 planList">
                 <li style={{color: "#5b3a25"}}>&#x2713; <span className="pl-2">Office mode</span></li>
-                <li>&#x2713; <span className="pl-2">Office mode</span></li>
+                <li>&#x2713; <span className="pl-2">Online listening</span></li>
+                <li style={{color: "#5b3a25"}}>&#x2713; <span className="pl-2">No Ads</span></li>
+                <li>&#x2713; <span className="pl-2">Regular Audio</span></li>
+                <li>&#x2713; <span className="pl-2">Offline mode</span></li>
+                <li>&#x2713; <span className="pl-2">30 skips per day</span></li>
+                <li>&#x2713; <span className="pl-2">With Ads</span></li>
+                <li style={{color: "#5b3a25"}}>&#x2713; <span className="pl-2">Unlimited skips</span></li>
             </ul>
+
+            <button className="bg-white text-primary">Activate</button>
         </div>
       </div>
     </div>
