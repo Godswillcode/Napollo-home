@@ -2,9 +2,10 @@ import catset from "../Images/catset.png";
 
 const Listen = () => {
   return (
-    <div className="bg-primary py-14 px-5 mt-12 md:mt-0">
-      <div className="myContainer grid grid-cols-1 md:grid-cols-2 gap-4">
-        <img src={catset} alt="listen" />
+    <>
+      <div className="bg-primary py-14 mt-14 lg:mt-0">
+      <div className="myContainer grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <img src={catset} alt="listen"/>
         <div>
           <h2 className="text-2xl md:text-6xl font-extrabold pb-5 text-black">
             Listen and enjoy all trending music
@@ -26,6 +27,7 @@ const Listen = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
