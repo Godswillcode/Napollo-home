@@ -4,6 +4,7 @@ import Hero from "./Components/Hero";
 import Listen from "./Components/Listen";
 import Navbar from "./Components/Navbar";
 import Plan from "./Components/Plan";
+import Testimonial from "./Components/Testimonial";
 import WhatHot from "./Components/WhatHot";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
      <Expansion/>
      <Listen/>
      <Plan/>
+     <Testimonial/>
      <div className="mb-32"></div>
     </>
   );
