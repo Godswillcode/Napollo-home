@@ -18,10 +18,10 @@ const Plan = () => {
           </div>
 
           <div className="text-center mb-6">
-            <h4 className="font-bold tracking-wider pb-1">Free</h4>
+            <h4 className="font-bold tracking-wider pb-1 pt-2">Free</h4>
             <p className="text-sm text-white">Enjoy unlimited online music</p>
             <div className="flex justify-center mt-3">
-              <div className="bg-white w-12 h-1"></div>
+            <hr className="bg-white w-12"/>
             </div>
           </div>
 
@@ -31,7 +31,8 @@ const Plan = () => {
             </h3>
             <h6 className="text-sm">Start with one month free trial</h6>
             <div className="flex justify-center mt-3">
-              <div className="bg-white w-full h-1"></div>
+             
+              <hr className="bg-white w-full"/>
             </div>
             <button
               className="px-7 rounded-3xl mt-3 py-1"
@@ -41,9 +42,10 @@ const Plan = () => {
             </button>
           </div>
 
-          <div>
-              
-          </div>
+            <ul className="mt-10 planList">
+                <li style={{color: "#5b3a25"}}>&#x2713; <span className="pl-2">Office mode</span></li>
+                <li>&#x2713; <span className="pl-2">Office mode</span></li>
+            </ul>
         </div>
       </div>
     </div>

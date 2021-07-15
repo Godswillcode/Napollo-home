@@ -82,3 +82,9 @@ p {
   margin-right: -2em;
   font-size: 20px;
 }
+
+
+/*==== plan section ====*/
+.planList li{
+  margin-top: 10px;
+}
