@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Download from "./Components/Download";
 import Expansion from "./Components/Expansion";
 import Hero from "./Components/Hero";
 import Listen from "./Components/Listen";
@@ -18,6 +19,7 @@ function App() {
      <Listen/>
      <Plan/>
      <Testimonial/>
+     <Download/>
      <div className="mb-32"></div>
     </>
   );

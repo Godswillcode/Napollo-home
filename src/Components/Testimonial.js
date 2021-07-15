@@ -8,14 +8,16 @@ const Testimonial = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-x-16">
-        <TItems
-          desc="This is the best app I've come across.
+        <div>
+          <TItems
+            desc="This is the best app I've come across.
           was able to upscale my career in less
           than 10 weeks."
-          name="Hanna Gosley"
-          job="Pop Artiste"
-          image={testImage}
-        />
+            name="Hanna Gosley"
+            job="Pop Artiste"
+            image={testImage}
+          />
+        </div>
 
         <div className="">
           <TItems
