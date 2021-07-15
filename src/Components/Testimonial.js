@@ -8,27 +8,46 @@ const Testimonial = () => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-x-16">
-        <div>
-          <TItems
-            desc="This is the best app I've come across.
+
+      <div>
+      <div className="bg-secondary py-10 pr-7 rounded-br-lg rounded-tl">
+        <p>This is the best app I've come across.
           was able to upscale my career in less
-          than 10 weeks."
-            name="Hanna Gosley"
-            job="Pop Artiste"
-            image={testImage}
-          />
+          than 10 weeks.</p>
+        <div className="text-right pr-10 pt-5 font-semibold tracking-wider text-sm">
+          <h3 className="text-neutral">Hanna Gosley</h3>
+          <h4 className="text-primary">Pop Artiste</h4>
         </div>
+      </div>
+      <div className="flex justify-end -mt-8">
+        <img src={testImage} alt="testimonials" className="rounded-full" />
+      </div>
+    </div>
 
-        <div className="">
-          <TItems
-            desc="Beign an artiste on Napollo has been a real game changer."
-            name="Hanna Gosley"
-            job="Pop Artiste"
-            image={testImage}
-          />
+    <div>
+      <div className="bg-secondary py-10 px-7 rounded-br-lg rounded-tl">
+        <p>Beign an artiste on Napollo has been a real game changer.</p>
+        <div className="text-right pr-10 pt-5 font-semibold tracking-wider text-sm">
+          <h3 className="text-neutral">Hanna Gosley</h3>
+          <h4 className="text-primary">Pop Artiste</h4>
         </div>
+      </div>
+      <div className="flex justify-end -mt-8">
+        <img src={testImage} alt="testimonials" className="rounded-full" />
+      </div>
+    </div>
 
-        <div className="">
+    <div>
+      <div className="bg-secondary py-16 px-14 rounded-br-lg rounded-tl">
+        <p className="py-1">Beign an artiste on Napollo has been a real game changer.</p>
+        
+      </div>
+      
+    </div>
+        
+
+
+        {/* <div className="">
           <TItems
             desc="Napollo is such a great platform. I'm
           getting exposure and opportunities that"
@@ -36,7 +55,7 @@ const Testimonial = () => {
             name="Hanna Gosley"
             job="Pop Artiste"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
