@@ -35,7 +35,7 @@ const WhatHot = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4">
             <div>
-              <img src={album2} alt="album" className="rounded-md" />
+              <img src={album2} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Death Bed</span>
@@ -64,7 +64,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={album3} alt="album" className="rounded-md" />
+              <img src={album3} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Faded</span>
@@ -93,7 +93,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={album1} alt="album" className="rounded-md" />
+              <img src={album1} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Hate Me</span>
@@ -146,7 +146,7 @@ const WhatHot = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <img src={ep1} alt="album" className="rounded-md" />
+              <img src={ep1} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Let's Dance</span>
@@ -175,7 +175,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={ep2} alt="album" className="rounded-md" />
+              <img src={ep2} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Bad Romance</span>
@@ -204,7 +204,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={ep3} alt="album" className="rounded-md" />
+              <img src={ep3} alt="album" className="rounded-md w-full" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Fly</span>
@@ -235,7 +235,7 @@ const WhatHot = () => {
         </div>
 
         <div className="flex items-center">
-          <div className="bg-primary p-2 rounded-full hidden md:flex justify-center md:ml-3">
+          <div className="bg-primary p-2 rounded-full hidden lg:flex justify-center lg:ml-3">
             <svg
               className="w-10 h-10 text-white"
               fill="none"
