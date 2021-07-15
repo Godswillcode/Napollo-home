@@ -19,9 +19,9 @@ function App() {
       <Expansion />
       <Listen />
       <Plan />
-      {/* <Testimonial /> */}
-      {/* <Download /> */}
-      {/* <Footer /> */}
+      <Testimonial />
+      <Download />
+      <Footer />
       <div className="mb-60"></div>
     </>
   );
