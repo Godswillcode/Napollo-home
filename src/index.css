@@ -101,5 +101,10 @@ p {
 }
 
 footer ul li {
-  margin: 5px 0;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: var(--primary);
 }

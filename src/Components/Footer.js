@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary py-12 mt-20 md:mt-64">
       <div className="myContainer">
-        <div className="grid grid-cols-9 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-9 gap-5">
           {/* first */}
           <div className="text-neutral text-sm">
             <img src={logo} alt="logo" className="16" />
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
 
           {/* second role */}
-          <div className="grid grid-cols-4 gap-4 col-span-6 mt-12 md:ml-10 text-white text-sm">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 col-span-6 mt-5 md:ml-16 text-white text-sm">
               <ul>
                   <li className="f_title">Napollo</li>
                   <li>About</li>
@@ -29,30 +29,33 @@ const Footer = () => {
                   <li>Contact</li>
               </ul>
               <ul>
-                  <li className="f_title">Napollo</li>
-                  <li>About</li>
-                  <li>Sign Up</li>
-                  <li>Forgot Password</li>
-                  <li>Contact</li>
+                  <li className="f_title">Artist Membership</li>
+                  <li>Overview</li>
+                  <li>Pricing</li>
+                  <li>Opportunies</li>
+                  <li>Shows</li>
+                  <li>Help</li>
               </ul>
               <ul>
-                  <li className="f_title">Napollo</li>
-                  <li>About</li>
-                  <li>Sign Up</li>
-                  <li>Forgot Password</li>
-                  <li>Contact</li>
+                  <li className="f_title">Listener</li>
+                  <li>Overview</li>
+                  <li>Pricing</li>
+                  <li>Suggested Playlists</li>
+                  <li>Discover</li>
+                  <li>Reviews</li>
               </ul>
               <ul>
-                  <li className="f_title">Napollo</li>
-                  <li>About</li>
-                  <li>Sign Up</li>
-                  <li>Forgot Password</li>
-                  <li>Contact</li>
+                  <li className="f_title">Listener</li>
+                  <li>Terms of Service</li>
+                  <li>Privacy Policy</li>
+                  <li>Copyright policy</li>
+                  <li>Cookies</li>
+                  <li>Trademark</li>
               </ul>
           </div>
 
           {/* last */}
-          <div className="text-neutral font-semibold tracking-wider mt-10">
+          <div className="text-neutral font-semibold tracking-wider mt-5">
             <h4 className="">Follow Us</h4>
                 <div className="flex my-4 ">
                 <svg className="p-2 rounded-full f_iconBg" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" fill="#fff"/></svg>
