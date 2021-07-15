@@ -35,7 +35,7 @@ const WhatHot = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
-              <img src={album1} alt="album" className="rounded-md" />
+              <img src={album2} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Death Bed</span>
@@ -64,7 +64,7 @@ const WhatHot = () => {
             </div>
 
             <div>
-              <img src={album2} alt="album" className="rounded-md" />
+              <img src={album3} alt="album" className="rounded-md" />
               <div className="mt-2 flex justify-between text-sm">
                 <div>
                   <span className="block text-neutral">Faded</span>
