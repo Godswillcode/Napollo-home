@@ -41,12 +41,12 @@ p {
 
 ul li::before {
   content: "\2022";
-  color: red;
+  color: #feed3e;
   font-weight: bold;
   display: inline-block; 
   width: 3em;
-  height: 3em;
   margin-right: -2em;
+  font-size: 20px;
 }
 
 .search__wrap .search__input {
