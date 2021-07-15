@@ -1,6 +1,12 @@
 import heroBg from "../Images/heroImage.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Hero = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1100 });
+  }, []);
   return (
     <div className="myContainer">
       <div className="grid grid-cols-1 lg:grid-cols-2">
