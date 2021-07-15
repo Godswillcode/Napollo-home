@@ -6,7 +6,7 @@ const Testimonial = () => {
                  <h2 className="title">Testimonials</h2>
             </div>
 
-              <Testimonial desc="This is the best app I've come across. was able to upscale my career in lessthan 10 weeks." name="Godswill hope" job="devloper"/>
+             <TItems />
         </div>
     )
 }
