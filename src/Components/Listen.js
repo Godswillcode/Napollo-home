@@ -8,7 +8,7 @@ const Listen = () => {
         <div>
           <h2 className="text-2xl md:text-6xl font-extrabold pb-5 text-black">Listen and enjoy all trending music</h2>
 
-          <ul className="list-disc">
+          <ul>
               <li>What’s hot</li>
               <li>By genre</li>
               <li>By location</li>
