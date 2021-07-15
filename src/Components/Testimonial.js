@@ -3,7 +3,7 @@ const Testimonial = () => {
     return (
         <div>
             <div className="myContainer">
-                 <h2 className="title">Testimonials</h2>
+                 <h2 className="title text-center">Testimonials</h2>
             </div>
 
              <TItems />
