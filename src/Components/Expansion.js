@@ -8,7 +8,7 @@ const Expansion = () => {
   return (
     <div className="myContainer mt-44">
       <div className="grid grid-cols-1 lg:grid-cols-2">
-        <img src={expan} alt="Expansion" className="h-2/3" />
+        <img src={expan} alt="Expansion" className="md:h-2/3" />
 
         {/* detail */}
         <div>
