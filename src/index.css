@@ -96,8 +96,18 @@ p {
   background: rgb(100, 100, 100);
 }
 
+.f_iconBg:hover {
+   cursor: pointer;
+   background: var(--primary)
+}
+
 .f_title {
   @apply mb-5 text-neutral font-semibold tracking-wide text-base;
+}
+
+.f_title:hover {
+  cursor: text;
+  color: var(--neutral);
 }
 
 footer ul li {
