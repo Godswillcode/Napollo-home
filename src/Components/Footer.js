@@ -4,12 +4,12 @@ import google from "../Images/googlePlay.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary py-12 mt-20 lg:mt-64">
+    <footer className="bg-secondary py-12 mt-20 lg:mt-64 w-full">
       <div className="myContainer">
         <div className="grid grid-cols-1 lg:grid-cols-9 gap-5">
           {/* first */}
           <div className="text-neutral text-sm">
-            <img src={logo} alt="logo" className="16" />
+            <img src={logo} alt="logo" className="w-28" />
             <h4>© 2020 Napollo</h4>
 
             <ul className="flex items-center gap-3 mt-5 ">

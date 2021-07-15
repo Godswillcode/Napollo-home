@@ -22,7 +22,6 @@ function App() {
       <Testimonial />
       <Download />
       <Footer />
-      <div className="mb-60"></div>
     </>
   );
 }
