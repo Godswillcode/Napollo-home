@@ -1,8 +1,6 @@
 import logo from "../Images/logo.png";
 
-
 const About = () => {
-
   return (
     <div className="myContainer">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 text-white">
