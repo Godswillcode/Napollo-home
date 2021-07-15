@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 const Hero = () => {
   useEffect(() => {
-    Aos.init({ duration: 1100 });
+    Aos.init({ duration: 900 });
   }, []);
   return (
     <div className="myContainer">
@@ -15,7 +15,7 @@ const Hero = () => {
             More fans, More Gigs, Less Eort Get better feedback, wider exposure
             and deeper industry access without ever switching tabs.
           </h3>
-          <button className="border rounded-3xl text-white px-4 py-2 text-sm mt-8 hover:bg-primary hover:border-none">
+          <button className="border rounded-3xl text-white px-4 py-2 text-sm mt-8 hover:bg-primary hover:border-none" data-aos="zoom-in">
             Let's get Started
           </button>
         </div>
