@@ -1,4 +1,4 @@
-import logoW from "../Images/logo4.png";
+import logoW from "../Images/logo-white.png";
 import logo from "../Images/logo.png";
 
 const Plan = () => {
@@ -11,7 +11,7 @@ const Plan = () => {
            <div className="flex justify-center">
            <div className="flex justify-center items-center w-24 h-24 rounded-full" style={{background: "var(--neutral)"}}>
             <img
-              src={logo}
+              src={logoW}
               alt="logo"
               className="rounded-full"
               className="w-28 h-28"
