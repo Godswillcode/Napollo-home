@@ -8,16 +8,19 @@ const Plan = () => {
 
       <div className="flex justify-center  flex-wrap mt-7">
         <div className="bg-primary py-5 px-10 border text-white">
-           <div className="flex justify-center">
-           <div className="flex justify-center items-center w-24 h-24 rounded-full" style={{background: "var(--neutral)"}}>
-            <img
-              src={logoW}
-              alt="logo"
-              className="rounded-full"
-              className="w-28 h-28"
-            />
+          <div className="flex justify-center">
+            <div
+              className="flex justify-center items-center w-24 h-24 rounded-full"
+              style={{ background: "var(--neutral)" }}
+            >
+              <img
+                src={logoW}
+                alt="logo"
+                className="rounded-full"
+                className="w-28 h-28"
+              />
+            </div>
           </div>
-           </div>
 
           <div className="text-center mb-6">
             <h4 className="font-bold tracking-wider pb-1 pt-2">Free</h4>
@@ -96,7 +99,9 @@ const Plan = () => {
             </div>
           </div>
           <div className="text-center mb-6">
-            <h4 className="font-bold tracking-wider pb-1 pt-2 text-primary">Premium</h4>
+            <h4 className="font-bold tracking-wider pb-1 pt-2 text-primary">
+              Premium
+            </h4>
             <h5 className="text-sm">Napollo premium mode sounds better</h5>
             <div className="flex justify-center mt-3">
               <div className="bg-gray-700 w-12" style={{ height: 2 }} />
