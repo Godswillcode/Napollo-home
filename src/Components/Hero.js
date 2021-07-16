@@ -10,7 +10,7 @@ const Hero = () => {
             More fans, More Gigs, Less Eort Get better feedback, wider exposure
             and deeper industry access without ever switching tabs.
           </h3>
-          <button className="border rounded-3xl text-white px-4 py-2 text-sm mt-8 hover:bg-primary hover:border-none" data-aos="zoom-in">
+          <button className="border transition duration-300 ease-in-out animate-bounce rounded-3xl text-white px-4 py-2 text-sm mt-8 hover:bg-primary hover:border-none" data-aos="zoom-in">
             Let's get Started
           </button>
         </div>
