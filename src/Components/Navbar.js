@@ -34,7 +34,6 @@ const Navbar = () => {
                     className="search__input"
                     type="text"
                     placeholder="Search for artistes, songs, albums"
-                  
                   />
                 </div>
               </div>
