@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import BackToTop from "./Components/BackToTop";
 import Download from "./Components/Download";
 import Expansion from "./Components/Expansion";
 import Footer from "./Components/Footer";
@@ -12,6 +13,7 @@ import WhatHot from "./Components/WhatHot";
 function App() {
   return (
     <>
+       <BackToTop/>
       <Navbar />
       <Hero />
       <About />
