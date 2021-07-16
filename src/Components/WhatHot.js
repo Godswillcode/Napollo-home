@@ -2,7 +2,7 @@ import hotImage from "../Images/hot.jpg";
 import album1 from "../Images/item1.jpg";
 import album2 from "../Images/item2.jpg";
 import album3 from "../Images/item3.jpg";
-import ep1 from "../Images/single1.png";
+import ep1 from "../Images/Single1.jpg";
 import ep2 from "../Images/single2.png";
 import ep3 from "../Images/single3.png";
 
